@@ -73,17 +73,23 @@ namespace ProyectoFinalAPI.Data
                 new Empleadoo()
                 {
                     Id = 1,
-                    Nombre = "Mario Hernandez"
+                    Nombre = "Mario Hernandez",
+                    UserName = "Mario",
+                    Password = "12345"
                 },
                 new Empleadoo()
                 {
                     Id = 2,
-                    Nombre = "Roberto Sanchez"
+                    Nombre = "Roberto Sanchez",
+                    UserName = "Roberto",
+                    Password = "123456"
                 },
                 new Empleadoo()
                 {
                     Id = 3,
-                    Nombre = "Pepito Juarez"
+                    Nombre = "Pepito Juarez",
+                    UserName = "Pepito",
+                    Password = "1234567"
                 });
         }
 

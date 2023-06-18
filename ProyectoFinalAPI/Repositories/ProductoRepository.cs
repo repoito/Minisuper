@@ -15,11 +15,6 @@ namespace ProyectoFinalAPI.Repositories
             _db = db;
         }
 
-        public Task GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<Producto> Update(Producto entity)
         {
             _db.Productos.Update(entity);

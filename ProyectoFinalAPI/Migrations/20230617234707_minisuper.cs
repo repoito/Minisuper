@@ -61,6 +61,7 @@ namespace ProyectoFinalAPI.Migrations
                     { 3, 500, "Eskimo", 98.0, "Leche" },
                     { 4, 2000, "McCormi", 72.0, "Aderezo Ranch" }
                 });
+
         }
 
         /// <inheritdoc />
@@ -71,6 +72,7 @@ namespace ProyectoFinalAPI.Migrations
 
             migrationBuilder.DropTable(
                 name: "Productos");
+
         }
     }
 }
